@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aman Kumar Gupta — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="#top" class="logo">AKG</a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="kicker">Full-Stack Developer &amp; CSE Student</p>
+        <h1>I build the systems<br>underneath good ideas.</h1>
+      </div>
+      <div class="hero-side">
+        <p>
+          Third-year Computer Science student focused on Python, Django and
+          the MERN stack. I like the unglamorous part of software &mdash;
+          data models, APIs, the pieces that have to hold up when everything
+          else changes around them.
+        </p>
+        <a class="btn" href="#work">See the work</a>
+      </div>
+    </section>
+
+    <section id="work" class="work wrap">
+      <h2>Selected work</h2>
+
+      <article class="project">
+        <div class="project-num">01</div>
+        <div class="project-body">
+          <h3>Hospital Management System</h3>
+          <p>Full MERN stack app with JWT authentication and role-based dashboards for patients, doctors and admins.</p>
+          <ul class="tags">
+            <li>React</li><li>Node.js</li><li>MongoDB</li><li>JWT</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-num">02</div>
+        <div class="project-body">
+          <h3>E-Commerce Backend API</h3>
+          <p>REST API built with Django and DRF handling catalog, cart and order logic for a storefront.</p>
+          <ul class="tags">
+            <li>Django</li><li>DRF</li><li>PostgreSQL</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-num">03</div>
+        <div class="project-body">
+          <h3>Canteen Management System</h3>
+          <p>Queue and crowd-management concept for a campus canteen, modelled as a multi-agent system.</p>
+          <ul class="tags">
+            <li>Django</li><li>Python</li><li>System Design</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrap about-grid">
+        <h2>About</h2>
+        <p>
+          I'm currently in my third year of a B.Tech in Computer Science
+          (AI/ML), splitting my time between coursework and backend-heavy
+          side projects. Most of what I build starts as a rough wireframe
+          or a class assignment and turns into something I keep iterating on.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills wrap">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <p>Python, JavaScript, C</p>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <p>Django, DRF, Node.js, Express</p>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <p>React, HTML, CSS</p>
+        </div>
+        <div class="skill-group">
+          <h3>Data</h3>
+          <p>MongoDB, MySQL, PostgreSQL</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="wrap footer-row">
+      <p>Let's talk &mdash; <a href="mailto:amankumargupta936995@gmail.com">amankumargupta936995@gmail.com</a></p>
+      <p class="footer-meta">&copy; 2026 Aman Kumar Gupta</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
